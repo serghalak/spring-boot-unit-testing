@@ -30,12 +30,12 @@ public class MockAnnotationTest {
     @Autowired
     StudentGrades studentGrades;
 
-    // @Mock
-    @MockBean
+    @Mock
+    //@MockBean
     private ApplicationDao applicationDao;
 
-    // @InjectMocks
-    @Autowired
+    @InjectMocks
+    //@Autowired
     private ApplicationService applicationService;
 
     @BeforeEach
